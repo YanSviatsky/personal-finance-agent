@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git pull:*)",
+      "Bash(git push:*)",
+      "WebSearch",
+      "WebFetch(domain:ai-sdk.dev)",
+      "Bash(git commit:*)",
+      "Bash(tasklist:*)",
+      "Bash(cmd.exe /c \"taskkill /PID 40036 /F\")",
+      "Bash(powershell:*)",
+      "Bash(npx tsx server.ts)",
+      "Bash(npm search:*)",
+      "Bash(cmd.exe /c \"taskkill /PID 18452 /F\")",
+      "Bash(npx tsx:*)",
+      "Bash(cat:*)",
+      "Bash(git add:*)",
+      "Bash(git checkout:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
